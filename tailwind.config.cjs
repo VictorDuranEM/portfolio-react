@@ -29,7 +29,7 @@ module.exports = {
       },
       gridTemplateRows: {
         'title': 'auto auto',
-        'about': 'repeat(3, auto)',
+        'about': '80px 60px auto',
       },
       width: {
         'intro-subtitle': 'calc(100% + 2.25rem)',
