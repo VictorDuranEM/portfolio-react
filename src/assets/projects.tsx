@@ -1,6 +1,6 @@
 import productCard from './images/work/product-card.png';
-import productCardMobile from './images/work/product-card-mobile.png';
-import productCardDesktop from './images/work/product-card-desktop.png';
+import eLearningCard from './images/work/e-learning-card.png';
+
 
 export type Project = {
   id: string,
@@ -8,8 +8,6 @@ export type Project = {
   titleStrong: string;
   subtitle: string;
   image: string;
-  imageMobile: string;
-  imageDesktop: string;
   description: string;
   technologies: {
     name: string;
@@ -28,8 +26,6 @@ export const projects: Project[] = [
     titleStrong: 'Component',
     subtitle: 'Challenge',
     image: productCard,
-    imageMobile: productCardMobile,
-    imageDesktop: productCardDesktop,
     description: 'This product card component is my implementation of a challenge from Frontend Mentor.',
     technologies: [
       {
@@ -49,6 +45,34 @@ export const projects: Project[] = [
       {
         name: 'View on Netlify',
         url: 'https://imba-product-preview-card-component.netlify.app/'
+      }
+    ],
+  },
+  {
+    id: '2',
+    title: 'e-Learning',
+    titleStrong: 'Landing Page',
+    subtitle: 'Challenge',
+    image: eLearningCard,
+    description: 'This landing page is my implementation of a challenge from Frontend Mentor.',
+    technologies: [
+      {
+        name: 'React',
+        url: 'https://reactjs.org/'
+      },
+      {
+        name: 'Tailwind CSS',
+        url: 'https://tailwindcss.com/'
+      },
+    ],
+    links: [
+      {
+        name: 'View on GitHub',
+        url: 'https://github.com/VictorDuranEM/skilled-e-learning-landing-page'
+      },
+      {
+        name: 'View on Vercel',
+        url: 'https://skilled-e-learning-landing-page-theta.vercel.app/'
       }
     ],
   }
