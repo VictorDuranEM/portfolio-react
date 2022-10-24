@@ -42,7 +42,7 @@ module.exports = {
   plugins: [
     plugin(function({ addBase, theme }) {
       addBase({
-        '*:focus': {
+        '*:focus-visible': {
           outline: theme('colors.accent') + " solid 3px",
           outlineOffset: '3px',
         },
