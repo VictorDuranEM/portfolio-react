@@ -1,5 +1,6 @@
 import productCard from './images/work/product-card.png';
 import eLearningCard from './images/work/e-learning-card.png';
+import equalizerCard from './images/work/equalizer-card.png';
 
 
 export type Project = {
@@ -39,13 +40,13 @@ export const projects: Project[] = [
     ],
     links: [
       {
+        name: 'View on Netlify',
+        url: 'https://imba-product-preview-card-component.netlify.app/'
+      },
+      {
         name: 'View on GitHub',
         url: 'https://github.com/VictorDuranEM/product-preview-card-component'
       },
-      {
-        name: 'View on Netlify',
-        url: 'https://imba-product-preview-card-component.netlify.app/'
-      }
     ],
   },
   {
@@ -67,13 +68,41 @@ export const projects: Project[] = [
     ],
     links: [
       {
+        name: 'View on Vercel',
+        url: 'https://skilled-e-learning-landing-page-theta.vercel.app/'
+      },
+      {
         name: 'View on GitHub',
         url: 'https://github.com/VictorDuranEM/skilled-e-learning-landing-page'
       },
+    ],
+  },
+  {
+    id: '3',
+    title: 'Equalizer',
+    titleStrong: 'Landing Page',
+    subtitle: 'Challenge',
+    image: equalizerCard,
+    description: 'This landing page is my implementation of a challenge from Frontend Mentor.',
+    technologies: [
+      {
+        name: 'React',
+        url: 'https://reactjs.org/'
+      },
+      {
+        name: 'Tailwind CSS',
+        url: 'https://tailwindcss.com/'
+      },
+    ],
+    links: [
       {
         name: 'View on Vercel',
-        url: 'https://skilled-e-learning-landing-page-theta.vercel.app/'
-      }
+        url: 'https://equalizer-landing-page-beta.vercel.app/'
+      },
+      {
+        name: 'View on GitHub',
+        url: 'https://github.com/VictorDuranEM/equalizer-landing-page'
+      },
     ],
-  }
+  },
 ]
