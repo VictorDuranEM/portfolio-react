@@ -2,7 +2,7 @@ import productCard from './images/work/product-card.png';
 import eLearningCard from './images/work/e-learning-card.png';
 import equalizerCard from './images/work/equalizer-card.png';
 import meetCard from './images/work/meet-card.png';
-
+import podRequestAccessCard from './images/work/pod-request-access-card.png';
 
 export type Project = {
   id: string,
@@ -102,11 +102,43 @@ export const projects: Project[] = [
     links: [
       {
         name: 'View on Vercel',
-        url: ' https://meet-landing-page-jade-ten.vercel.app/'
+        url: 'https://meet-landing-page-jade-ten.vercel.app/'
       },
       {
         name: 'View on GitHub',
         url: 'https://github.com/VictorDuranEM/meet-landing-page'
+      },
+    ],
+  },
+  {
+    id: '4',
+    title: 'Pod Request Access',
+    titleStrong: 'Landing Page',
+    subtitle: 'Challenge',
+    image: podRequestAccessCard,
+    description: 'This landing page is my implementation of a challenge from Frontend Mentor.',
+    technologies: [
+      {
+        name: 'Next.js',
+        url: 'https://nextjs.org/'
+      },
+      {
+        name: 'React',
+        url: 'https://reactjs.org/'
+      },
+      {
+        name: 'Tailwind CSS',
+        url: 'https://tailwindcss.com/'
+      },
+    ],
+    links: [
+      {
+        name: 'View on Vercel',
+        url: 'https://pod-request-access-landing-page-five.vercel.app/'
+      },
+      {
+        name: 'View on GitHub',
+        url: 'https://github.com/VictorDuranEM/pod-request-access-landing-page'
       },
     ],
   },
