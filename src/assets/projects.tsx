@@ -4,6 +4,7 @@ import equalizerCard from './images/work/equalizer-card.png';
 import meetCard from './images/work/meet-card.png';
 import podRequestAccessCard from './images/work/pod-request-access-card.png';
 import singlePageDesignCard from './images/work/single-page-design-card.png';
+import suiteLandingPageCard from './images/work/suite-landing-page-card.png';
 
 export type Project = {
   id: string,
@@ -176,6 +177,42 @@ export const projects: Project[] = [
       {
         name: 'View on GitHub',
         url: 'https://github.com/VictorDuranEM/single-page-design-portfolio'
+      },
+    ],
+  },
+  {
+    id: '6',
+    title: 'Suite Page Design',
+    titleStrong: 'Landing Page',
+    subtitle: 'Challenge',
+    image: suiteLandingPageCard,
+    description: 'This landing page is my implementation of a challenge from Frontend Mentor.',
+    technologies: [
+      {
+        name: 'Next.js',
+        url: 'https://nextjs.org/'
+      },
+      {
+        name: 'React',
+        url: 'https://reactjs.org/'
+      },
+      {
+        name: 'Tailwind CSS',
+        url: 'https://tailwindcss.com/'
+      },
+      {
+        name: 'CVA',
+        url: 'https://github.com/joe-bell/cva'
+      }
+    ],
+    links: [
+      {
+        name: 'View on Vercel',
+        url: 'https://suite-landing-page-nmrqcs7js-victorduranem.vercel.app'
+      },
+      {
+        name: 'View on GitHub',
+        url: 'https://github.com/VictorDuranEM/suite-landing-page'
       },
     ],
   }
