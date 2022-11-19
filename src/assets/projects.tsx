@@ -5,6 +5,7 @@ import meetCard from './images/work/meet-card.png';
 import podRequestAccessCard from './images/work/pod-request-access-card.png';
 import singlePageDesignCard from './images/work/single-page-design-card.png';
 import suiteLandingPageCard from './images/work/suite-landing-page-card.png';
+import singlePageDeveloperCard from './images/work/single-page-developer-card.png';
 
 export type Project = {
   id: string,
@@ -213,6 +214,61 @@ export const projects: Project[] = [
       {
         name: 'View on GitHub',
         url: 'https://github.com/VictorDuranEM/suite-landing-page'
+      },
+    ],
+  },
+  {
+    id: '7',
+    title: 'Single Page',
+    titleStrong: 'Developer Portfolio',
+    subtitle: 'Challenge',
+    image: singlePageDeveloperCard,
+    description: 'This landing page is my implementation of a challenge from Frontend Mentor.',
+    technologies: [
+      {
+        name: 'Solid.js',
+        url: 'https://www.solidjs.com/'
+      },
+      {
+        name: 'Tailwind CSS',
+        url: 'https://tailwindcss.com/'
+      },
+      {
+        name: 'CVA',
+        url: 'https://github.com/joe-bell/cva'
+      },
+      {
+        name: 'Vite',
+        url: 'https://vitejs.dev/'
+      },
+      {
+        name: 'TypeScript',
+        url: 'https://www.typescriptlang.org/'
+
+      },
+      {
+        name: 'Vercel FUnctions',
+        url: 'https://vercel.com/docs/serverless-functions/introduction'
+
+      },
+      {
+        name: 'Airtable',
+        url: 'https://airtable.com/'
+
+      },
+      {
+        name: 'Airtable API',
+        url: 'https://airtable.com/api'
+      }
+    ],
+    links: [
+      {
+        name: 'View on Vercel',
+        url: 'https://single-page-developer-portfolio.vercel.app/'
+      },
+      {
+        name: 'View on GitHub',
+        url: 'https://github.com/VictorDuranEM/single-page-developer-portfolio'
       },
     ],
   }
